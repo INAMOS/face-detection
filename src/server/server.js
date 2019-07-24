@@ -8,7 +8,7 @@ const multer=require("multer");
 const flash=require("req-flash")
 
 //Configuracion
-app.set('port',process.env.PORT);
+app.set('port',npprocess.env.PORT);
 app.set('views',path.join(__dirname,"../views"))
 app.set("view engine","ejs");
 app.use('/public',express.static(__dirname+'/../public'));
